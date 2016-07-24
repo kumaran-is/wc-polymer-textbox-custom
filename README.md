@@ -1,4 +1,4 @@
-# &lt;wdpr-wc-polymer-textbox-custom&gt;
+# &lt;wc-polymer-textbox-custom&gt;
 
 >Custom Input box built from scratch by wrapping Native HTML &lt;input type="text"&gt; element using [Polymer v1.0](https://www.polymer-project.org/) 
 
@@ -28,10 +28,10 @@ Note : polyserve works only with Node.js v4.x.x +
 Install the component using [Bower](http://bower.io/):
 
 ```
-bower install wdpr-wc-polymer-textbox-custom --save
+bower install wc-polymer-textbox-custom --save
 ```
 
-Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox-custom/archive/master.zip).
+Or [download as ZIP](https://github.com/disney/wc-polymer-textbox-custom/archive/master.zip).
 
 ## Usage
 
@@ -44,13 +44,13 @@ Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox-custom/ar
 2. Import custom element:
 
     ```html
-    <link rel="import" href="bower_components/wdpr-wc-polymer-textbox-custom/wdpr-wc-polymer-textbox-custom.html">
+    <link rel="import" href="bower_components/wc-polymer-textbox-custom/wc-polymer-textbox-custom.html">
     ```
 
 3. Start using it!
 
     ```html
-    <wdpr-wc-polymer-textbox-custom placeholder=" First Name*" >
+    <wc-polymer-textbox-custom placeholder=" First Name*" ></wc-polymer-textbox-custom>
     ```
 
 
@@ -63,7 +63,7 @@ Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox-custom/ar
     bower install
     ```
 
-2. Start development server and open `http://localhost:8080/components/wdpr-wc-polymer-textbox-custom/`.
+2. Start development server and open `http://localhost:8080/components/wc-polymer-textbox-custom/`.
 
     ```
     $ polyserve
